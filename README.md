@@ -1,6 +1,6 @@
 # web-search
 
-[pi coding agent](https://github.com/earendil-works/pi-coding-agent) 扩展：给 agent 提供联网搜索工具 `web_search`（pi 本身无内置联网搜索）。
+[pi coding agent](https://github.com/earendil-works/pi) 扩展：给 agent 提供联网搜索工具 `web_search`（pi 本身无内置联网搜索）。
 
 Firecrawl 主通道 + Tavily 自动兜底，返回标题、链接与摘要；拿到链接后建议用 `curl` 抓全文。
 
