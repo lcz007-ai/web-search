@@ -8,8 +8,8 @@ Firecrawl 主通道 + Tavily 自动兜底，返回标题、链接与摘要；拿
 
 | 通道 | API | 计费 | 说明 |
 |---|---|---|---|
-| ① 主通道 | [Firecrawl](https://firecrawl.dev) `/v2/search` | credits | YouTube / 英文源覆盖佳；失败先重试（默认 3 次指数退避：500/1000/2000ms）；401/402/403（认证/额度）与 429（分钟级限流）不重试，直接回退 |
-| ② 兜底 | [Tavily](https://tavily.com) `/search` | credits（免费 1000/月） | basic 1 credit/次，advanced 2 credits/次 |
+| ① 主通道 | [Firecrawl](https://firecrawl.dev) `/v2/search` | credits（有1000免费积分） |  英文源覆盖佳（包括YouTube ）；失败先重试（默认 3 次指数退避：500/1000/2000ms）；401/402/403（认证/额度）与 429（分钟级限流）不重试，直接回退 |
+| ② 兜底 | [Tavily](https://tavily.com) `/search` | credits（有免费积分） | basic 1 credit/次，advanced 2 credits/次 |
 
 ## 安装
 
